@@ -37,8 +37,8 @@ app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
 
-sequelize.sync()
-.then(() => {
-    application.listen(PORT, () => console.log(`db sync successful & server running on port ${PORT}`))
-})
-.catch(err => console.log(err))
+// sequelize.sync()
+// .then(() => {
+//     application.listen(PORT, () => console.log(`db sync successful & server running on port ${PORT}`))
+// })
+// .catch(err => console.log(err))
